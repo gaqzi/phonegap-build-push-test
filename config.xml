@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "co.example.test"
+	versioncode="2"
+	version 	= "0.9.1">
+
+	<name>Push test</name>
+
+	<description>
+	</description>
+
+	<author>
+        Björn Andersson
+	</author>
+
+	<gap:platforms>
+		<gap:platform name="android" minVersion="2.2" />
+		<gap:platform name="ios" />
+	</gap:platforms>
+
+	<!--
+	<icon src="blurry.png" gap:role="default" />
+
+    <gap:splash src="weirdo.png" />
+	-->
+	<feature name="http://api.phonegap.com/1.0/network" />
+	<!-- <feature name="http://api.phonegap.com/1.0/notification"/> -->
+
+	<!-- sample preference specification -->
+    <preference name="android-minSdkVersion" value="8" />
+	<preference name="orientation" value="portrait" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="show-splash-screen-spinner" value="false" />
+
+	<access origin="*" />
+
+    <gap:plugin name="GenericPush" />
+</widget>
