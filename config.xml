@@ -19,6 +19,8 @@
 		<gap:platform name="ios" />
 	</gap:platforms>
 
+	<preference name="phonegap-version" value="2.5.0" />
+
 	<!--
 	<icon src="blurry.png" gap:role="default" />
 
